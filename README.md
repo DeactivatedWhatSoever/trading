@@ -18,3 +18,6 @@ Since this is just a trader, we additionally need a data analysis platform for t
 * Monitoring & Logging
     * I need to learn a hell of this kind of stuff. 
     * Thinking of reading a few books like `The Art of Monitoring`.
+* Infrastructure
+    * Try to think of consistency, concurrency.
+    * You should study some database stuff and model data properly.
