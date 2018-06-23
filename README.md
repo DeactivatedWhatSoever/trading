@@ -11,6 +11,10 @@ Since this is just a trader, we additionally need a data analysis platform for t
     * Thinking of mostly Python but I have to choose.
     * Mostly I'm thinking of parallel computing stuff so it could be Go, but could code parallel in Python. 
     * In this project, I'm going to study the language internals too, and then get on with this project.
+    * Must need to study distributed computing
+        * Find all concurrency issues in code. Of course you may think that stuff in infrastructure, but in code too.
+        * Try to engineer everything in parallel thinking. 
+        * Find some white papers and study them for the problems that you confrunt.
 * Kubernetes
     * Not thinking of just creating a dumb server that just installs everything locally. 
     * The environment needs to be reproduceable and should get up right after the computer reboots.
