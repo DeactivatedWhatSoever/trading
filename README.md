@@ -6,22 +6,24 @@ This application will have a wrapper that does all the interpreting between the 
 Since this is just a trader, we additionally need a data analysis platform for tradeable asset data. More of a back testing platform. 
 
 ## Development Stack
-* Python or Go
-    * Don't know which one would be nice for this application.
-    * Thinking of mostly Python but I have to choose.
-    * Mostly I'm thinking of parallel computing stuff so it could be Go, but could code parallel in Python. 
-    * In this project, I'm going to study the language internals too, and then get on with this project.
-    * Must need to study distributed computing
-        * Find all concurrency issues in code. Of course you may think that stuff in infrastructure, but in code too.
-        * Try to engineer everything in parallel thinking. 
-        * Find some white papers and study them for the problems that you confrunt.
-* Kubernetes
-    * Not thinking of just creating a dumb server that just installs everything locally. 
-    * The environment needs to be reproduceable and should get up right after the computer reboots.
-    * Since it's a trading platform I need to make it really secure and nice.
+* Language & Framework
+    * Python & Flask
+    * All the trading data manipulation and stuff are mostly going to be with Python.
+    * That's why I chose it and I'm going to get better at it because of AI and stuff.
+    * Go will be used for distributed computing and stuff. So laters.
+    * I think I should make an admin page but don't really know which one to make it with. 
+        * Thinking of Angular or Vue, but there should be a lot of graphs. 
+        * Graphs should be an important factor over here, I'm not sure whether I'll do a lot of forms.
 * Monitoring & Logging
     * I need to learn a hell of this kind of stuff. 
     * Thinking of reading a few books like `The Art of Monitoring`.
 * Infrastructure
-    * Try to think of consistency, concurrency.
-    * You should study some database stuff and model data properly.
+    * Database
+        * You should study some database stuff and model data properly.
+        * Whether to use a NoSQL database. I don't think I'll need any cache memory.
+        * I need to process data in a cheap way.
+        * 
+    * Kubernetes
+        * Not thinking of just creating a dumb server that just installs everything locally. 
+        * The environment needs to be reproduceable and should get up right after the computer reboots.
+        * Since it's a trading platform I need to make it really secure and nice.
