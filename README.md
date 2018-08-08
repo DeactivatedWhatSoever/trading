@@ -22,8 +22,17 @@ Since this is just a trader, we additionally need a data analysis platform for t
         * You should study some database stuff and model data properly.
         * Whether to use a NoSQL database. I don't think I'll need any cache memory.
         * I need to process data in a cheap way.
-        * 
     * Kubernetes
         * Not thinking of just creating a dumb server that just installs everything locally. 
         * The environment needs to be reproduceable and should get up right after the computer reboots.
         * Since it's a trading platform I need to make it really secure and nice.
+
+## Features
+This sections is actually just an idea bank. I haven't thought of a lot of things over here, so it's just an exhaustive list.
+* Financial data playground
+    * This is for actual algorithm research. Finding alpha, writing reports, and doing actual analysis.
+    * Stock, cryptocurrency, any sort of trading asset simulation system. This will lead to better research.
+* A platform that lets you share all the researches you made. Algorithms, real big things etc. 
+    * I think social leading will really be something. I'm thinking of this.
+    * I could actually make a huge market over here. But, the things that really make cash, it'll sure have to sold real expensively.
+    
