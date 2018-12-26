@@ -7,16 +7,17 @@ Since this is just a trader, we additionally need a data analysis platform for t
 
 ## Development Stack
 * Language & Framework
-    * Python & Flask
-    * All the trading data manipulation and stuff are mostly going to be with Python.
-    * That's why I chose it and I'm going to get better at it because of AI and stuff.
-    * Go will be used for distributed computing and stuff. So laters.
     * I think I should make an admin page but don't really know which one to make it with. 
         * Thinking of Angular or Vue, but there should be a lot of graphs. 
         * Graphs should be an important factor over here, I'm not sure whether I'll do a lot of forms.
+        * I think it's best for me to go with Angular since it's best for form handling.
+    * I'm sorry for all the fuss. But I think it's best to get my JVM skills up from now.
+    * Scala, Play, are going to be used.
+    * Also checkout Go with the Actor model.
 * Monitoring & Logging
     * I need to learn a hell of this kind of stuff. 
-    * Thinking of reading a few books like `The Art of Monitoring`.
+    * Read some books and need to learn statistics.
+    * Try to store EVERYTHING!
 * Infrastructure
     * Database
         * You should study some database stuff and model data properly.
@@ -26,6 +27,9 @@ Since this is just a trader, we additionally need a data analysis platform for t
         * Not thinking of just creating a dumb server that just installs everything locally. 
         * The environment needs to be reproduceable and should get up right after the computer reboots.
         * Since it's a trading platform I need to make it really secure and nice.
+    * CI/CD
+        * Thinking of GoCD or Jenkins.
+        * Automate everything that you can. 
 
 ## Features
 This sections is actually just an idea bank. I haven't thought of a lot of things over here, so it's just an exhaustive list.
@@ -35,4 +39,3 @@ This sections is actually just an idea bank. I haven't thought of a lot of thing
 * A platform that lets you share all the researches you made. Algorithms, real big things etc. 
     * I think social leading will really be something. I'm thinking of this.
     * I could actually make a huge market over here. But, the things that really make cash, it'll sure have to sold real expensively.
-    
